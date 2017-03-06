@@ -1,0 +1,84 @@
+@import 'mixins';
+@import 'reset';
+@import 'header';
+@import 'forms';
+@import 'button';
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Proxima Nova alt';
+    height: 100%;
+    font-size: 1.8rem;
+    background-color: rgb(14, 25, 37);
+    color: rgb(255, 255, 255);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    &__left {
+        font-size: 2.4rem;
+    }
+    &__right {
+        font-size: 1rem;
+        // justify-content: ;
+    }
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    padding-top: 250px;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    &--lg {
+        max-width: 1200px;
+    }
+    &--submit {
+        width: 100%;
+        max-width: 800px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.logo {
+    padding: 20px;
+}
+
+.nav {
+    display: flex;
+    padding-right: 20px;
+    &__item {
+        padding: 40px 15px;
+        a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.8rem;
+        }
+    }
+}
+
+.text-center {
+    text-align: center;
+}
+
+.page-title {
+    font-size: 6rem;
+}
+
+.page-subtitle {
+    margin-top: 10px;
+    font-size: 2rem;
+}
+
+.copyright {
+    width: 100%;
+    padding-top: 20px;
+    font-size: 1.6rem;
+}

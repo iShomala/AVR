@@ -1,0 +1,33 @@
+.form {
+    margin: 100px auto;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    padding: 30px;
+    padding-top: 80px;
+    border: none;
+    // background-color: rgba(175, 175, 175, 0.3);
+    &--full-width {
+        width: 100%;
+    }
+}
+
+.input {
+    width: 80%;
+    padding: 20px 15px;
+    font-size: 1.8rem;
+    height: 20px;
+    &--margin {
+        margin-bottom: 15px;
+    }
+    &--search {
+        width: 100%;
+        height: 48px;
+        
+    }
+}
+
+.search {
+    position: relative;
+}
